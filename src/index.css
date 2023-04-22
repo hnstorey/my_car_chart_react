@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+/* h2 {
+    text-align: center;
+} */
+  
+input[type='submit'] {
+    border: none;
+}
+  
+/* input[type='submit']:hover {
+    color: rgb(30, 125, 208);
+} */
+  
+/* .home {
+    position: fixed;
+    color: floralwhite;
+} */
+  
+/* .imagediv {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+  
+/* .navbar1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding-left: 1em;
+} */
+  
+/* .navbar2 {
+    display: flex;
+} */
+  
+/* .navlink {
+    font-weight:bold;
+    font-variant: small-caps;
+    font-size: x-large;
+} */
+  
+/* .navblock {
+    display: flex;
+    flex-direction: row;
+}
+   */
+/* .dropdownbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em;
+}
+   */
+/* .dropnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 2em;
+}
+   */
+/* .menubutton {
+    border-radius: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+} */
+  
+  
+/* .menubuttonselect {
+    display: flex;
+    place-items: center;
+    color: black;
+} */
+  
+.authButton {
+    display: block-right;
+    text-align: right;
+}
+  
+.authButton:hover {
+    font-style: italic;
+    color:rgb(127, 244, 244);
+}
+
+.logoutButton {
+    border-radius: 3em;
+    padding: 0.5em;
+}
+  
+.submitButton {
+    border-radius: 3em;
+    padding: 0.5em;
+  
+}
+  
+/* .modalbutton {
+    border-radius: 2em;
+    margin: 1em;
+    padding: 0.5em;
+    flex-direction: row;
+    place-items: center;
+    color: black;
+}
+
+.modalbutton:hover {
+    background-color: darkcyan;
+} */
+  
+/* .historyDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
