@@ -11,7 +11,7 @@ const AuthChecker = ({ children }: Props) => {
     const navigate = useNavigate();
     useEffect(() => {
         if (!isAuthenticated) {
-            navigate("../")
+            navigate("/servicehistory")
             loginWithPopup()
         }
     }, [])

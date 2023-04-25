@@ -35,12 +35,13 @@ const ServiceForm = ( props: ServiceFormProps ) => {
 
             server_calls.create(store.getState())
             setTimeout(() => { window.location.reload()}, 1500);
+            event.target.reset()
         }
     }
   
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
-        <Input placeholder='Vehicle' {...register('vehicle', {required: false, maxLength: 120})} />
+        <Input placeholder='Vehicle' {...register('vehicle', {required: true, maxLength: 120})} />
         <Input placeholder='Service Date' {...register('service_date', {required: false, maxLength: 12})} />
         <Input placeholder='Description' {...register('description', {required: false, maxLength: 500})} />
         <Input placeholder='Mileage' {...register('mileage', {required: false, maxLength: 10})} />
